@@ -553,7 +553,7 @@ static void mqtt_fasync_callback_function(int signal)
  */
 static uint16_t mqtt_receive_data_parse(uint8_t *src_data, uint8_t *msg_data)
 {
-	uint8_t digit = 0;
+    uint8_t digit = 0;
     uint16_t value = 0;
     uint16_t multiplier = 1;
     uint16_t msg_length = 0;
